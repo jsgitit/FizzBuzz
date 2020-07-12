@@ -9,7 +9,7 @@ namespace FizzBuzz
             var result = "";
             for (int i = 1; i <= 100; i++)
             {
-                if (i % 3 == 0 && i % 5 == 0)
+                if (i % 15 == 0)
                 {
                     result = "FizzBuzz";
                     Console.WriteLine(result);
